@@ -11,24 +11,26 @@
 
 *Part of the **[ai-hive](https://github.com/werkrbee/ai-hive)** family — werkrbee's House of Hives (skills · rules · tools · agents · and more).*
 
-The **instructions** layer of the House of Hives. Where [skills-hive](https://github.com/werkrbee/skills-hive)
-holds *what agents can do*, rules-hive holds *how they must behave* — the
-always-on charter beneath **Barry**, the King Bee orchestrator. It builds on the
-open [AGENTS.md](https://agents.md/) standard and renders the same ruleset into
-whatever instruction file each harness reads.
+The **instructions** layer of the House of Hives — the domain of **Patricia, the
+Queen Bee**. Where [skills-hive](https://github.com/werkrbee/skills-hive) holds
+*what agents can do* (Barry's realm), rules-hive holds *how they must behave*:
+the always-on law every agent inherits, like a queen's pheromones regulating the
+colony. Barry, the King Bee, orchestrates the fleet — but always *within*
+Patricia's charter. It builds on the open [AGENTS.md](https://agents.md/) standard
+and renders the same ruleset into whatever instruction file each harness reads.
 
 ## Rulesets
 
 | Ruleset | Description |
 |---------|-------------|
-| [**king-charter**](rules/king-charter/AGENTS.md) | The operating constitution — human-in-the-loop for consequential actions, 24×7×365 reliability, safety, and delegation under Barry |
+| [**queen-charter**](rules/queen-charter/AGENTS.md) | Patricia's operating constitution — human-in-the-loop for consequential actions, 24×7×365 reliability, safety, and delegation (executed under Barry) |
 
 ## Repository layout
 
 ```text
 rules-hive/
 ├── rules/                        # WHAT the guardrails say — portable source of truth
-│   └── king-charter/
+│   └── queen-charter/
 │       ├── AGENTS.md             # the canonical ruleset (open standard)
 │       └── references/
 ├── adapters/                     # WHERE they apply — harness taxonomy & overrides

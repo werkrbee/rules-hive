@@ -1,10 +1,12 @@
-# The King's Charter
+# The Queen Bee's Charter
 
-Operating rules for any AI agent working in a werkrbee repository. This is the
-always-on constitution beneath **Barry**, the King Bee orchestrator — it governs
-how agents behave whether they run once or 24×7×365. Agents read the nearest
-`AGENTS.md` in the directory tree, so these rules apply repo-wide unless a deeper
-file overrides them.
+The operating law for every AI agent in a werkrbee repository — the always-on
+constitution set by **Patricia, the Queen Bee**. Just as a queen's pheromones
+regulate the whole colony, this charter regulates how every agent behaves,
+whether it runs once or 24×7×365. **Barry, the King Bee**, orchestrates the fleet
+— but he executes *within* the Queen's law. Agents read the nearest `AGENTS.md`
+in the directory tree, so this charter applies repo-wide unless a deeper file
+overrides it.
 
 ## First principles
 

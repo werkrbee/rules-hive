@@ -10,7 +10,7 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-RULESET="king-charter"
+RULESET="queen-charter"
 TARGET_DIR="."
 GLOBAL=false
 HARNESSES=""
@@ -44,7 +44,7 @@ usage() {
 Render a rules-hive ruleset into agent instruction files.
 
 Options:
-  --ruleset NAME    Ruleset under rules/ (default: king-charter)
+  --ruleset NAME    Ruleset under rules/ (default: queen-charter)
   --harness NAME    Target harness (repeatable): agents, claude-code, cursor,
                     codex, gemini-cli, goose, opencode, kiro, github-copilot,
                     databricks-genie-code, snowflake-cortex-code

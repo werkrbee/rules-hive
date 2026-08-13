@@ -2,7 +2,7 @@
 .SYNOPSIS
   Render a rules-hive ruleset into each harness's native instruction file (Windows).
 .PARAMETER Ruleset
-  Ruleset under rules/ (default: king-charter).
+  Ruleset under rules/ (default: queen-charter).
 .PARAMETER Harness
   One or more harnesses (default: agents, claude-code, cursor, github-copilot, gemini-cli).
 .PARAMETER Dir
@@ -12,7 +12,7 @@
 #>
 [CmdletBinding()]
 param(
-  [string]$Ruleset = "king-charter",
+  [string]$Ruleset = "queen-charter",
   [string[]]$Harness = @("agents","claude-code","cursor","github-copilot","gemini-cli"),
   [string]$Dir = "."
 )
