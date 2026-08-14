@@ -25,6 +25,12 @@ and renders the same ruleset into whatever instruction file each harness reads.
 |---------|-------------|
 | [**queen-charter**](rules/queen-charter/AGENTS.md) | Patricia's operating constitution — human-in-the-loop for consequential actions, 24×7×365 reliability, safety, and delegation (executed under Barry) |
 
+**The Charter Keeper.** Patricia keeps and enforces the law; how it's maintained,
+amended, and enforced is documented in
+[`rules/queen-charter/references/charter-keeper.md`](rules/queen-charter/references/charter-keeper.md).
+Her enforcement persona is the [`patricia`](https://github.com/werkrbee/skills-hive/tree/main/skills/patricia)
+skill in skills-hive — the Queen's counterpart to Barry.
+
 ## Repository layout
 
 ```text
